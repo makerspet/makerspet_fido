@@ -1,0 +1,30 @@
+kaiaai_telemetry_node:
+  ros__parameters:
+
+    laser_scan:
+        buf_len: 561
+        # Radian
+        angle_min: 0.0
+        angle_max: 6.283185307179586476925286766559
+        range_min: 0.1
+        range_max: 12.0
+        topic_name_pub: "scan"
+        frame_id: "base_scan"
+
+    telemetry:
+        topic_name_sub: "telemetry"
+
+    tf:
+        frame_id: "odom"
+        child_frame_id: "base_footprint"
+
+    joints:
+        topic_name_pub: "joint_states"
+        wheel:
+            right: "wheel_right_joint"
+            left: "wheel_left_joint"
+
+    odometry:
+      frame_id: "odom"
+      child_frame_id: "base_footprint"
+      topic_name_pub: "odom"
