@@ -1,4 +1,4 @@
-# Maker's Pet Fido pet robot
+# Maker's Pet Fido home robot
 
 A 250mm DIY 3D-printable pet robot compatible with [Kaia.ai](https://kaia.ai) software [platform](https://github.com/kaiaai/).
 
