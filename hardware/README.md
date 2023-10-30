@@ -1,6 +1,6 @@
 ## 3D-printing instructions
 
-- get a 3D printer with a 200x200mm or larger build volume.
+- get a 3D printer with a 250x250mm or larger build volume.
 - STL files [here](https://github.com/makerspet/makerspet_fido/tree/main/hardware/stl/)
 - 3MF files [here](https://github.com/makerspet/makerspet_fido/tree/main/hardware/3mf/)
 - Fusion 360 source files [here](https://github.com/makerspet/makerspet_snoopy/tree/main/hardware/fusion360)
