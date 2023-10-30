@@ -1,4 +1,4 @@
-# [Maker's Pet](https://makerspet.com) makerspet_loki Pet robot model and configurations
+# Maker's Pet Fido pet robot model and configurations
 
 ## Modding the robot
 - Clone `makerspet_loki` robot into a new `awesome_droid` robot.
