@@ -313,7 +313,7 @@
       </sensor>
     </link>
     <joint name='wheel_left_joint' type='revolute'>
-      <pose relative_to='base_footprint'>0 0.107161 0.0335 1.5708 -0 0</pose>
+      <pose relative_to='base_footprint'>0 0.107161 0.0335 -1.5708 0 0</pose>
       <parent>base_footprint</parent>
       <child>wheel_left_link</child>
       <axis>
