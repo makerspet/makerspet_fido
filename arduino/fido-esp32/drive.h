@@ -10,7 +10,7 @@
 #define PID_KP_WHEEL               0.001 // 0.003 P_ON_E
 #define PID_KI_WHEEL               0.001 // 0.0002
 #define PID_KD_WHEEL               0
-#define PID_MODE                   (P_ON_M) // P_ON_E
+#define PID_MODE                   (PID::P_ON_M) // P_ON_E
 
 #define PWM_FREQ                   20000 // 15..25KHz
 #define PWM_BITS                   10

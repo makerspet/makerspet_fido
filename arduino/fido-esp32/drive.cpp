@@ -77,7 +77,7 @@ void DriveController::setKd(unsigned char motorID, float k) {
 
 void DriveController::setProportionalMode(unsigned char motorID, bool onMeasurement) {
   if (motorID < MOTOR_COUNT)
-    pid[motorID]->SetTunings(kp[motorID], ki[motorID], kd[motorID], onMeasurement ? P_ON_M : P_ON_E);
+    pid[motorID]->SetTunings(kp[motorID], ki[motorID], kd[motorID], onMeasurement ? PID::P_ON_M : PID::P_ON_E);
 }
 
 void DriveController::initOnce(logFuncT logFunc) {
@@ -108,7 +108,7 @@ void DriveController::initOnce(logFuncT logFunc) {
     
     // https://playground.arduino.cc/Code/PIDLibrary/
     pid[motorID] = new PID(&measuredRPM[motorID], &pidPWM[motorID], &targetRPM[motorID],
-      kp[motorID], ki[motorID], kd[motorID], PID_UPDATE_PERIOD, PID_MODE, DIRECT);
+      kp[motorID], ki[motorID], kd[motorID], PID_UPDATE_PERIOD, PID_MODE, PID::DIRECT);
     pid[motorID]->SetOutputLimits(-1, 1);
 
     setMaxRPM(motorID, MOTOR_WHEEL_MAX_RPM);
