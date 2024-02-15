@@ -37,13 +37,14 @@ A 250mm DIY 3D-printable pet robot compatible with [Kaia.ai](https://kaia.ai) so
 - Arduino ESP32 micro-controller
 
 ## Instructions
-- 3D printing [STL](https://github.com/makerspet/makerspet_fido/tree/main/stl), [3MF](https://github.com/makerspet/makerspet_fido/tree/main/3mf) and instructions (TBD)
-- Arduino ESP32 [firmware](https://github.com/makerspet/makerspet_fido/tree/main/arduino)
+- 3D printing [STL](https://github.com/makerspet/3d_models/tree/main/fido_250mm/stl), [3MF](https://github.com/makerspet/3d_models/tree/main/fido_250mm/3mf)
+- Arduino ESP32 [firmware](https://github.com/kaiaai/firmware)
 - PC end user and developer [setup](https://github.com/kaiaai/docker)
-- KiCad [schematic, PCB](https://github.com/makerspet/makerspet_fido/tree/main/kicad)
-- Software setup, configuration [instructions](https://github.com/makerspet/makerspet_fido/tree/main/config)
-- Fusion 360 3D CAD [design files](https://github.com/makerspet/makerspet_fido/tree/main/fusion360)
-- ROS2 software mod [instructions](https://github.com/makerspet/makerspet_fido/tree/main/urdf)
+- KiCad [schematic, PCB](https://github.com/makerspet/pcb)
+- Software setup, configuration [instructions](https://www.youtube.com/playlist?list=PLOSXKDW70aR8SA16wTB0ou9ClKhv7micy)
+- Fusion 360 3D CAD [design files](https://github.com/makerspet/3d_models/tree/main/fido_250mm/fusion360)
+- ROS2 software mod [instructions](https://github.com/makerspet/makerspet_loki/tree/main/urdf)
+
 
 ## Open-source design
 Authored in Fusion 360.
