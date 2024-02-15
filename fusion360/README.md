@@ -1,6 +1,1 @@
-- v550
-  - fixed a missing screw in the upper plate
-  - shorter handset upper clamp to remove the handset without undoing the clamp
-  - upper plate handset stops to prevent the handset sliding out
-  - lowered the handset's upper clamp to accomodate smaller handsets
-- v533 beta release
+Please find 3D model files here https://github.com/makerspet/3d_models/tree/main/fido_250mm/fusion360/.
